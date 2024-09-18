@@ -3,6 +3,7 @@
 \
 <br><br><br>
 
+# Lab 1 - Part 1
 ![lab1part1](Lab1-part1.png)
 
 # From the original:
