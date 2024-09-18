@@ -4,7 +4,7 @@
 <br><br><br>
 
 # Lab 1 - Part 1
-![lab1part1](Lab1-part1.png)
+![lab1part1](assets/img/Lab1-part1.png)
 
 # From the original:
 # Personal Portfolio ⚡️ 
