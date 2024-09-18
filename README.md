@@ -3,6 +3,8 @@
 \
 <br><br><br>
 
+![lab1part1](Lab1-part1.png)
+
 # From the original:
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
