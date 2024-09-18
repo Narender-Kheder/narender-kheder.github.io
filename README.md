@@ -6,6 +6,10 @@
 # Lab 1 - Part 1
 ![lab1part1](assets/img/Lab1-part1.png)
 
+# Lab 1 - Part 2
+![lab1part1](assets/img/part2sshome.png)
+![lab1part1](assets/img/part2ssrepo.png)
+
 # From the original:
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
