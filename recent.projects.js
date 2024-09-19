@@ -2,6 +2,7 @@
 const projects = [
     {
         title: 'Image Generator',
+        timestamp: "2023-12-20T12:00:00",
         description: 'Synthetic training data generation using SDXL and LORA',
         imageSrc: '/assets/img/gan.jpg',
         tools: 'Python, SDXL, LORA',
@@ -11,7 +12,19 @@ const projects = [
         ]
     },
     {
+        title: 'Primitive Processor',
+        timestamp: "2022-03-01T12:00:00",
+        description: 'Very Primitive Processor running on DE1-SoC board',
+        imageSrc: '/assets/img/Blog-Images-Forget-Machine-Learning-Humans-Still-Have-a-Lot-to-Learn-Part-II.jpg',
+        tools: 'Verilog, ARM',
+        accomplishments: [
+            'Designed a basic processor in Verilog and wrote functional codes to run on the processor.',
+            'Applied knowledge of 16-bit registers, multiplexers, FSMs, and more.'
+        ]
+    },
+    {
         title: 'Circuit Detector',
+        timestamp: "2023-03-20T12:00:00",
         description: 'Circuit diagram detector using convolutional neural networks model',
         imageSrc: '/assets/img/project-aim_bert-bias.png',
         tools: 'Python, ResNet',
@@ -22,22 +35,13 @@ const projects = [
     },
     {
         title: 'Mapping Software',
+        timestamp: "2022-03-20T12:00:00",
         description: 'Geographic information system (GIS) using Open Street Map (OSM)',
         imageSrc: '/assets/img/project-blog-logo.jpg',
         tools: 'C++, OpenGL, OSM',
         accomplishments: [
             'Designed a mapping software in C++ using GUIs and raw input map data.',
             'Applied algorithms like simulated annealing and K-opt to solve a specialized traveling salesman problem.'
-        ]
-    },
-    {
-        title: 'Primitive Processor',
-        description: 'Very Primitive Processor running on DE1-SoC board',
-        imageSrc: '/assets/img/Blog-Images-Forget-Machine-Learning-Humans-Still-Have-a-Lot-to-Learn-Part-II.jpg',
-        tools: 'Verilog, ARM',
-        accomplishments: [
-            'Designed a basic processor in Verilog and wrote functional codes to run on the processor.',
-            'Applied knowledge of 16-bit registers, multiplexers, FSMs, and more.'
         ]
     }
 ];
@@ -69,12 +73,12 @@ function createProjectHTML(project) {
 function displayLatestProject() {
     console.log("hello")
     const recentProjectsDiv = document.getElementById('recent-projects');
-    recentProjectsDiv.innerHTML = createProjectHTML(projects.shift());
+    recentProjectsDiv.innerHTML = createProjectHTML(projects.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)).shift());
 }
 
 function displayMoreProjects() {
     const recentProjectsDiv = document.getElementById('recent-projects');
-    recentProjectsDiv.innerHTML += createProjectHTML(projects.shift());
+    recentProjectsDiv.innerHTML += createProjectHTML(projects.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)).shift());
 }
 
 document.getElementById('load-more').addEventListener('click', displayMoreProjects);
