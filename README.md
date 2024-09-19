@@ -14,7 +14,7 @@
 ![lab1part1](assets/img/part3sshome.png)
 ![lab1part1](assets/img/part3ssrepo.png)
 
-# Lab 1 - Part 3
+# Lab 1 - Part 4
 ![lab1part1](assets/img/part4sshome.png)
 ![lab1part1](assets/img/part4ssrepo.png)
 
