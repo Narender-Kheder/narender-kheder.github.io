@@ -414,134 +414,17 @@
     <!-- Fourth Section: Projects -->
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text main-color">Projects</h3>
+      <!-- <div id="recent-projects"></div> -->
       <div class="container">
         <div class="row">
 
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/gan.jpg" style="height: 100%; width: 100%"
-                  class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator main-color-text hoverline">Image Generator<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Synthetic training data generation using SDXL and LORA
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, SDXL, LORA</li>
-                  <li>Worked in a small team to create a proof of concept for an image generation
-                    modal to create 100,000 synthetic data points for Modiface's internal training
-                    dataset</li>
-                  <li>Utilized Automatic1111 to run a Stable Diffusion Xl modal after fine-tuning
-                    LORAs for high-quality hyperreal images and decreased generation time</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/project-aim_bert-bias.png" style="height: 100%; width: 100%"
-                  class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator main-color-text hoverline">Circuit Detector<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Circuit diagram detctor using convolutional neural networks modal
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, ResNet</li>
-                  <li>Trained an Image Processing modal to extract circuit elements from a hand-drawn
-                    diagram.</li>
-                  <li>Used a Convolutional Neural Network AutoEncoder, with a fixed ResNet50
-                    encoder and trainable decoder.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/project-blog-logo.jpg"
-                  style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator main-color-text hoverline">Mapping Software<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Geographic information system (GIS) using Open Street Map (OSM)
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title main-color-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> C++, OpenGL, OSM</li>
-                  <li>Designed a mapping software in C++ code using GUI's and raw input map data
-                    which could search for intersections, points of interest and fastest paths between
-                    two points</li>
-                  <li>Applied algorithms, such as simulated annealing and K-opt, to solve a specialized
-                    traveling salesman Problem.</li>
-
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app"
-                  src="/assets/img/Blog-Images-Forget-Machine-Learning-Humans-Still-Have-a-Lot-to-Learn-Part-II.jpg"
-                  style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator main-color-text hoverline">Primitive Processor<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Very Primitive Processor running on DE1-SoC board
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title main-color-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Verilog, ARM</li>
-                  <li>Designed a basic process in Verilog and wrote many functional codes to be run on
-                    the processor</li>
-                  <li>Applied knowledge of 16-bit registers, multiplexers, FSMs and more</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
+          <div id="recent-projects"></div>
+          <button id="load-more">Load More</button>
+    
           <!-- ************* -->
         </div>
       </div>
+      <script src="recent.projects.js"></script>
     </section>
 
     <!-- Fifth Section: Skills -->
