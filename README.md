@@ -10,6 +10,10 @@
 ![lab1part1](assets/img/part2sshome.png)
 ![lab1part1](assets/img/part2ssrepo.png)
 
+# Lab 1 - Part 3
+![lab1part1](assets/img/part3sshome.png)
+![lab1part1](assets/img/part3ssrepo.png)
+
 # From the original:
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
@@ -26,7 +30,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/preview.gif">
+    <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/preview.gif">part
   </a>
   </kbd>
 </p>
